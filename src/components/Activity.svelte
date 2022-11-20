@@ -8,7 +8,7 @@
     activityData.subscribe((rawActivities => {
         console.log(rawActivities);
 
-        const labels: string[] = [];
+        //const labels: string[] = [];
         const postData: number[] = [];
         const loginData: number[] = [];
         const registrationData: number[] = [];
@@ -49,9 +49,9 @@
 </script>
 
 
-<div>
+<figure>
     <Line
         data={data}
     />
 
-</div>
+</figure>

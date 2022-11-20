@@ -16,8 +16,6 @@ const config = {
 	kit: {
 		adapter: adapter(),
 	},
-
-	base: dev ? "" : "mastodon-status"
 };
 
 export default config;
